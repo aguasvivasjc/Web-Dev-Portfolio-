@@ -1,3 +1,191 @@
 :root {
     --body-background: rgb(255, 255, 255);
+    --font-family: serif
 }
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-family);
+}
+body {
+    background-color: var(--body-background);
+    
+}
+
+@media (min-width: 600px) and (max-width: 500px) {
+
+}
+ 
+@media (orientation: portrait) {
+.section
+}
+
+section {
+    padding: 20px;
+    /* margin-top: 10px; */
+}
+
+
+header {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 4px;
+    flex: 50%;
+    position: relative;
+    background-color: #13293d;
+    width: 100%;
+}
+
+header h1 {
+    display: inline-flex;
+    border: 5px solid #275683;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+
+}
+
+a {
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    margin-right: 20px;
+    float: right;
+}
+
+main {
+    font-size: 18px;
+}
+
+.Shift {
+margin-left: 5%;
+display: table;
+justify-content: flex-start;
+}
+
+
+
+
+h2 {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+hr {
+    margin-left: 10px;
+    color: black;
+}
+
+.Line {
+    display: inline-flex;
+    margin-left: 10px;
+    color: black;
+    position:absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 75px;
+    border: 5px solid black;
+    background-color: beige; 
+
+}
+.About-Me{
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+
+
+figure {
+    display:flex;
+    border: 10px solid cornflowerblue;
+    height: 600px;
+    width: 1000px;
+    /* color:rgb(109, 231, 130); */
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    opacity: 0.3;
+}
+
+figure:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.stack{
+    float: left;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    /* display: table-column; */
+    
+
+}
+
+.Row:after{
+    content: "";
+    display: table;
+    clear: both;
+    /* flex-direction: column; */
+    }
+
+footer {
+    display: flex;
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    /* float: left; */
+    position:relative;
+    padding: 1%;
+    width: 100%;
+    background-color: #13293d;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+footer p {
+    margin-left: 10px;
+}
+
+#contact-info {
+    display: inline-block;
+    display: flex;
+    
+}
+
+.P1{
+    background-image: url("https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/61795283f33e383920e72e0b_10-stunning-web-design-portfolio-examples_BlogHero-p-1600.jpeg");
+    height: 600px;
+    width: 1300px;
+}
+
+.P2{
+    background-image: url("https://content.techgig.com/thumb/msid-84438897,width-860,resizemode-4/7-Things-about-programming-that-every-coder-hates.jpg?214822");
+    height: 600px;
+    width: 1000px;
+}
+
+.P3{
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/201706/web-development-647_062317054646.jpg");
+    height: 600px;
+    width: 1000px;
+}
+.P4{
+    background-image: url("https://blogs.mulesoft.com/wp-content/uploads/apis-versus-web-services-1.png");
+    height: 600px;
+    width: 1000px;
+}
+.P5{
+    background-image: url("https://blog.dataart.com/media/2266/what-is-cloud-native-development-and-why-you-should-care.jpg?anchor=center&mode=crop&width=1280&height=600&quality=100&rnd=132469723780000000");
+    height: 600px;
+    width: 1000px;
+}
+
