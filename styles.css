@@ -18,7 +18,12 @@ body {
 }
  
 @media (orientation: portrait) {
-.section
+.section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 }
 
 section {
@@ -84,6 +89,7 @@ hr {
 
 .Line {
     display: inline-flex;
+    display: flex;
     margin-left: 10px;
     color: black;
     position:absolute;
