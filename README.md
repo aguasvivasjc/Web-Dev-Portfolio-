@@ -9,3 +9,5 @@ Utilize functions:
 anchor links 
 media queries 
 flexbox 
+
+Deployed work link: https://aguasvivasjc.github.io/Web-Dev-Portfolio-/
